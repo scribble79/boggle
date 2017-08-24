@@ -15,7 +15,6 @@ function initialize() {
 function search(grid, posX, posY, currIndex, word){
   if(currIndex == word.length){
     return true;
-    console.log(true);
   }
   var toLook = word[currIndex];
   /* check neighbours */
@@ -112,39 +111,3 @@ function checkWord( board, word ) {
 //     });
 //   });
 // }
-
-
-// function play(choice) {
-//   userChoice = choice;
-//   botsPlay();
-//   evaluate();
-//   updateScoreBoard();
-//   updateStatus();
-// }
-
-
-// function evaluate() {
-//   switch (userChoice) {
-//     case "horizontal":
-//     if (userChoice == "horizontal") {
-//       console.log(true);
-//     }
-//     break;
-
-//     case "paper":
-//     if (botChoice == "rock") { userScore++; } 
-//     if (botChoice == "scissors") { botScore++; }
-//     break;
-
-//     case "scissors":
-//     if (botChoice == "paper") { userScore++; } 
-//     if (botChoice == "rock") { botScore++; }
-//     break;
-//   }
-// }
-
-// function sayHello(name) {
-//   console.log("Hi there," + name);
-// }
-// sayHello("Andy"); //Hi there, Andy
-// sayHello("Jay");//Hi there, Jay
