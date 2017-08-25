@@ -1,6 +1,8 @@
-var test = [
+var chai = require('chai');
+
+var testBoard = [
     ["I","L","A","W"], 
-    ["B","N","G","E"], 
+    ["B","N","G","E"],
     ["I","U","A","O"], 
     ["A","S","R","L"] 
   ]; 
